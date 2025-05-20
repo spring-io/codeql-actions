@@ -1,4 +1,6 @@
-= A Workflow for Running CodeQL Actions
+= Workflows / Actions for Projects Creating GitHub Actions
+
+== codeql-analysis.yml
 
 Based off of GitHub's https://github.com/actions/reusable-workflows/blob/95d9656793415e47f574f7967f3850ea3bf5a7ed/.github/workflows/codeql-analysis.yml[reusable workflow], this action is modified to run CodeQL for the actions language.
 
@@ -17,5 +19,5 @@ on:
 
 jobs:
   codeql-analysis-call:
-    uses: spring-io/codeql-actions/.github/workflows/codeql-analysis.yml@1
+    uses: spring-io/github-actions/.github/workflows/codeql-analysis.yml@1
 ----
